@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|136076821|115781381|15867ade-bc87-4922-9129-417303565686|e97c950a-51ec-468b-ab00-9eb68a9d0bcb",
+        "courtyards_overlap|159651588|92281735|2694e774-c1ec-4c5e-bbbe-3cc4cf88cc4c|61aa0ed3-558f-4c6d-9e62-dd57c48bd5c1",
+        "hole_clearance|139285000|99377500|ff04dbf9-3b35-4abd-a960-873f064bf9bf|3d4114df-c784-4156-901b-37068f8bcdd9",
+        "hole_clearance|141385000|99377500|ff04dbf9-3b35-4abd-a960-873f064bf9bf|853602ad-b94e-4094-98e4-559c937c4ba1",
+        "solder_mask_bridge|139285000|99377500|ff04dbf9-3b35-4abd-a960-873f064bf9bf|3d4114df-c784-4156-901b-37068f8bcdd9",
+        "solder_mask_bridge|141385000|99377500|ff04dbf9-3b35-4abd-a960-873f064bf9bf|853602ad-b94e-4094-98e4-559c937c4ba1"
+      ],
       "meta": {
         "version": 2
       },

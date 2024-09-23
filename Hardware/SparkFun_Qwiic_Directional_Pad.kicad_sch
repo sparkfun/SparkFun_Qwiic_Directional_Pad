@@ -5560,6 +5560,16 @@
 		)
 		(uuid "373dac49-3a83-4fa8-b11d-de484505928d")
 	)
+	(text "Default I²C Address: 0x18"
+		(exclude_from_sim no)
+		(at 190.5 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3780508e-903d-444c-a2cd-7a46544a50cc")
+	)
 	(text "1"
 		(exclude_from_sim no)
 		(at 234.95 121.92 0)

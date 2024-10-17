@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun Qwiic Directional Pad")
-		(date "2024-09-23")
-		(rev "v10")
+		(date "2024-10-17")
+		(rev "v11")
 		(comment 1 "Designed by: N. Seidle")
 	)
 	(lib_symbols
@@ -2149,7 +2149,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun 8 pin SMBUS I2C Expander with Interrupt"
+			(property "ki_keywords" "SparkFun TCA9557 8 pin SMBUS I2C Expander with Reset"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2436,7 +2436,7 @@
 				(pin power_in line
 					(at 0 -15.24 90)
 					(length 2.54)
-					(name "GND"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)

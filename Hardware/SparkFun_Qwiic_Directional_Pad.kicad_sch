@@ -4946,19 +4946,19 @@
 		)
 	)
 	(junction
-		(at 114.3 40.64)
+		(at 114.3 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "170484ac-41f0-4373-be66-2a5aabae5545")
 	)
 	(junction
-		(at 120.65 60.96)
+		(at 120.65 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bff093e-54ad-4208-9fdb-6c768609f82f")
 	)
 	(junction
-		(at 107.95 55.88)
+		(at 107.95 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ed457e6-fe3f-4fb4-819b-6da12300b9f6")
@@ -4970,7 +4970,7 @@
 		(uuid "39d8eefc-f8e9-43bd-abf4-e492060b7f51")
 	)
 	(junction
-		(at 95.25 50.8)
+		(at 95.25 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "458bf217-7422-42a9-8e87-ffa7a6032c2c")
@@ -4988,31 +4988,31 @@
 		(uuid "64184db3-e6a9-4025-83b8-7172a1cadf21")
 	)
 	(junction
-		(at 107.95 40.64)
+		(at 107.95 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76e4c541-03bb-4cbf-85b8-0dc190690c33")
 	)
 	(junction
-		(at 95.25 40.64)
+		(at 95.25 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e2399c5-b5dc-4e62-bafe-93a032e66b64")
 	)
 	(junction
-		(at 101.6 53.34)
+		(at 101.6 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8aba85b9-0ab7-4c3b-a26b-66cf2e9f2f5a")
 	)
 	(junction
-		(at 72.39 55.88)
+		(at 72.39 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43f3b65-fef0-41c5-ac29-568cefb29dbe")
 	)
 	(junction
-		(at 114.3 58.42)
+		(at 114.3 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba7e92a8-7a41-48b6-bd90-453591734179")
@@ -5024,7 +5024,7 @@
 		(uuid "ca0dc1e8-3cae-4bde-b4f4-99e13757e8cd")
 	)
 	(junction
-		(at 101.6 40.64)
+		(at 101.6 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0e89ba8-ba7a-44aa-b2b4-83e92d41af12")
@@ -5057,7 +5057,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 40.64) (xy 114.3 41.91)
+			(xy 114.3 27.94) (xy 114.3 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5087,7 +5087,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 58.42) (xy 93.98 58.42)
+			(xy 114.3 45.72) (xy 93.98 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5127,7 +5127,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 68.58) (xy 73.66 68.58)
+			(xy 72.39 55.88) (xy 73.66 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5147,7 +5147,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 40.64) (xy 72.39 41.91)
+			(xy 72.39 27.94) (xy 72.39 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5167,7 +5167,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 55.88) (xy 93.98 55.88)
+			(xy 107.95 43.18) (xy 93.98 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5187,7 +5187,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 55.88) (xy 72.39 55.88)
+			(xy 73.66 43.18) (xy 72.39 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5197,7 +5197,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 63.5) (xy 93.98 63.5)
+			(xy 95.25 50.8) (xy 93.98 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5217,7 +5217,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 49.53) (xy 95.25 50.8)
+			(xy 95.25 36.83) (xy 95.25 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5237,7 +5237,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 50.8) (xy 73.66 50.8)
+			(xy 71.12 38.1) (xy 73.66 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5297,7 +5297,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 58.42) (xy 114.3 58.42)
+			(xy 123.19 45.72) (xy 114.3 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5307,7 +5307,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 40.64) (xy 120.65 40.64)
+			(xy 114.3 27.94) (xy 120.65 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5317,7 +5317,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 40.64) (xy 101.6 41.91)
+			(xy 101.6 27.94) (xy 101.6 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5367,7 +5367,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 40.64) (xy 101.6 40.64)
+			(xy 95.25 27.94) (xy 101.6 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5377,7 +5377,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 60.96) (xy 120.65 60.96)
+			(xy 123.19 48.26) (xy 120.65 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5467,7 +5467,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 66.04) (xy 73.66 66.04)
+			(xy 72.39 53.34) (xy 73.66 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5517,7 +5517,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 63.5) (xy 73.66 63.5)
+			(xy 72.39 50.8) (xy 73.66 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5547,7 +5547,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 49.53) (xy 101.6 53.34)
+			(xy 101.6 36.83) (xy 101.6 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5627,7 +5627,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 50.8) (xy 95.25 50.8)
+			(xy 123.19 38.1) (xy 95.25 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5677,7 +5677,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 49.53) (xy 72.39 55.88)
+			(xy 72.39 36.83) (xy 72.39 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5707,7 +5707,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 53.34) (xy 101.6 53.34)
+			(xy 123.19 40.64) (xy 101.6 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5737,7 +5737,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 40.64) (xy 114.3 40.64)
+			(xy 107.95 27.94) (xy 114.3 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5747,7 +5747,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 44.45) (xy 83.82 45.72)
+			(xy 83.82 31.75) (xy 83.82 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5787,7 +5787,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 41.91) (xy 120.65 40.64)
+			(xy 120.65 29.21) (xy 120.65 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5827,7 +5827,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 49.53) (xy 120.65 60.96)
+			(xy 120.65 36.83) (xy 120.65 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5847,7 +5847,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 49.53) (xy 107.95 55.88)
+			(xy 107.95 36.83) (xy 107.95 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5857,7 +5857,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 50.8) (xy 93.98 50.8)
+			(xy 95.25 38.1) (xy 93.98 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5967,7 +5967,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 40.64) (xy 107.95 41.91)
+			(xy 107.95 27.94) (xy 107.95 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5977,7 +5977,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 66.04) (xy 93.98 66.04)
+			(xy 95.25 53.34) (xy 93.98 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6047,7 +6047,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 55.88) (xy 107.95 55.88)
+			(xy 123.19 43.18) (xy 107.95 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6057,7 +6057,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 60.96) (xy 93.98 60.96)
+			(xy 120.65 48.26) (xy 93.98 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6087,7 +6087,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 53.34) (xy 73.66 53.34)
+			(xy 71.12 40.64) (xy 73.66 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6117,7 +6117,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 57.15) (xy 50.8 58.42)
+			(xy 50.8 44.45) (xy 50.8 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6147,7 +6147,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 49.53) (xy 114.3 58.42)
+			(xy 114.3 36.83) (xy 114.3 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6157,7 +6157,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 67.31) (xy 50.8 66.04)
+			(xy 50.8 54.61) (xy 50.8 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6167,7 +6167,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 40.64) (xy 107.95 40.64)
+			(xy 101.6 27.94) (xy 107.95 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6177,7 +6177,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 74.93) (xy 83.82 73.66)
+			(xy 83.82 62.23) (xy 83.82 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6197,7 +6197,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 55.88) (xy 72.39 55.88)
+			(xy 71.12 43.18) (xy 72.39 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6207,7 +6207,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 40.64) (xy 95.25 41.91)
+			(xy 95.25 27.94) (xy 95.25 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6247,7 +6247,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 39.37) (xy 95.25 40.64)
+			(xy 95.25 26.67) (xy 95.25 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6267,7 +6267,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 68.58) (xy 93.98 68.58)
+			(xy 95.25 55.88) (xy 93.98 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6277,7 +6277,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 53.34) (xy 93.98 53.34)
+			(xy 101.6 40.64) (xy 93.98 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6385,6 +6385,16 @@
 		)
 		(uuid "32c35aeb-abd3-4417-b1fa-ecac1ac0d182")
 	)
+	(text "The PCA9554 is is similar to the PCA9557 except the '54 has an INT pin \nwhereas the '57 has a RST pin. Pinouts are also different."
+		(exclude_from_sim no)
+		(at 84.074 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "332e067d-b787-4f61-a1e8-b30b646b638d")
+	)
 	(text "0"
 		(exclude_from_sim no)
 		(at 106.68 127 0)
@@ -6395,9 +6405,9 @@
 		)
 		(uuid "373dac49-3a83-4fa8-b11d-de484505928d")
 	)
-	(text "Default I²C Address: 0x18"
+	(text "Default I²C Address: 0x20"
 		(exclude_from_sim no)
-		(at 83.82 83.82 0)
+		(at 83.82 69.088 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6417,7 +6427,7 @@
 	)
 	(text "I²C GPIO Expander"
 		(exclude_from_sim no)
-		(at 91.44 26.67 0)
+		(at 83.312 17.78 0)
 		(effects
 			(font
 				(size 3 3)
@@ -6425,7 +6435,7 @@
 		)
 		(uuid "493a13f8-98f0-4187-a123-9da576b1e410")
 	)
-	(text "0x18"
+	(text "0x20"
 		(exclude_from_sim no)
 		(at 91.44 111.76 0)
 		(effects
@@ -6515,7 +6525,7 @@
 		)
 		(uuid "9c768e80-1d6c-449c-9d8f-c7dd4c8ad88c")
 	)
-	(text "0x1B"
+	(text "0x23"
 		(exclude_from_sim no)
 		(at 91.44 123.19 0)
 		(effects
@@ -6525,9 +6535,9 @@
 		)
 		(uuid "a25b70a8-e881-4ac8-9733-c105c2b85a0a")
 	)
-	(text "The TCA9554 is identical to the TCA9534 except for the addition of the internal I/O pull-up resistors, which keeps\nP-ports from floating when configured as inputs."
+	(text "The PCA9554 is identical to the PCA9534 except for the addition of the internal \nI/O pull-up resistors, which prevents the ports from floating when configured as inputs.\nPull-ups are still used in this design so that the '34 can be used if needed."
 		(exclude_from_sim no)
-		(at 78.486 89.662 0)
+		(at 84.074 76.962 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6535,7 +6545,7 @@
 		)
 		(uuid "a2fac091-dcfa-4bde-82cb-baed94243020")
 	)
-	(text "0x1A"
+	(text "0x22"
 		(exclude_from_sim no)
 		(at 91.44 119.38 0)
 		(effects
@@ -6565,7 +6575,7 @@
 		)
 		(uuid "bab8b483-3cef-4fe0-97e0-a36073e9f082")
 	)
-	(text "0x1D"
+	(text "0x25"
 		(exclude_from_sim no)
 		(at 91.44 130.81 0)
 		(effects
@@ -6585,7 +6595,7 @@
 		)
 		(uuid "bd9c82f8-0af6-480b-bc0d-edfb2c88f169")
 	)
-	(text "0x1E"
+	(text "0x26"
 		(exclude_from_sim no)
 		(at 91.44 134.62 0)
 		(effects
@@ -6595,7 +6605,7 @@
 		)
 		(uuid "c30fa72c-73a2-4f02-9b98-99955fdec3fc")
 	)
-	(text "0x1C"
+	(text "0x24"
 		(exclude_from_sim no)
 		(at 91.44 127 0)
 		(effects
@@ -6625,7 +6635,7 @@
 		)
 		(uuid "c710aa9c-fd77-4e51-ba74-0721ca086222")
 	)
-	(text "0x1F"
+	(text "0x27"
 		(exclude_from_sim no)
 		(at 91.44 138.43 0)
 		(effects
@@ -6655,7 +6665,7 @@
 		)
 		(uuid "d6ebd4c7-7e74-4c21-8b44-01bcaa9326b2")
 	)
-	(text "0x19"
+	(text "0x21"
 		(exclude_from_sim no)
 		(at 91.44 115.57 0)
 		(effects
@@ -6737,7 +6747,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 71.12 50.8 180)
+		(at 71.12 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6747,7 +6757,7 @@
 		)
 		(uuid "03bbe4a9-89e2-49f8-b533-583b9b58ab6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.6272 50.8 0)
+			(at 64.6272 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +6769,7 @@
 	)
 	(global_label "ADR1"
 		(shape input)
-		(at 72.39 66.04 180)
+		(at 72.39 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6768,50 +6778,6 @@
 			(justify right)
 		)
 		(uuid "092f0f7e-0525-4498-9be0-796aab4a02fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.5667 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SW_Left"
-		(shape input)
-		(at 123.19 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d73f2a7-73c3-420f-8558-32a3d8ac145e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.3718 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 71.12 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "12497887-2cf6-4c04-b126-944a81ce7533")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 64.5667 53.34 0)
 			(effects
@@ -6823,9 +6789,53 @@
 			)
 		)
 	)
+	(global_label "SW_Left"
+		(shape input)
+		(at 123.19 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d73f2a7-73c3-420f-8558-32a3d8ac145e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.3718 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 71.12 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12497887-2cf6-4c04-b126-944a81ce7533")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.5667 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO7{slash}Red"
 		(shape input)
-		(at 95.25 68.58 0)
+		(at 95.25 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6835,7 +6845,7 @@
 		)
 		(uuid "178d672c-c76b-4c14-ab37-ff0dfbcd628c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.2181 68.58 0)
+			(at 106.2181 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +6879,7 @@
 	)
 	(global_label "ADR0"
 		(shape input)
-		(at 72.39 63.5 180)
+		(at 72.39 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6879,7 +6889,7 @@
 		)
 		(uuid "1de14c79-35d1-47a5-9cf1-29bf3004e904")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.5667 63.5 0)
+			(at 64.5667 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,7 +6901,7 @@
 	)
 	(global_label "ADR2"
 		(shape input)
-		(at 72.39 68.58 180)
+		(at 72.39 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6901,7 +6911,7 @@
 		)
 		(uuid "24aefb7d-2d2b-48a3-95a6-a1938be66816")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.5667 68.58 0)
+			(at 64.5667 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,7 +6989,7 @@
 	)
 	(global_label "~{INT}"
 		(shape input)
-		(at 71.12 55.88 180)
+		(at 71.12 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6989,7 +6999,7 @@
 		)
 		(uuid "405b3009-1750-47ef-b8d8-b593cbc7711c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.2319 55.88 0)
+			(at 65.2319 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7023,7 +7033,7 @@
 	)
 	(global_label "SW_Right"
 		(shape input)
-		(at 123.19 55.88 0)
+		(at 123.19 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7033,7 +7043,7 @@
 		)
 		(uuid "53fcd52d-e9c1-4270-897b-ba2de02bcb87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.7022 55.88 0)
+			(at 134.7022 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +7253,7 @@
 	)
 	(global_label "SW_Up"
 		(shape input)
-		(at 123.19 50.8 0)
+		(at 123.19 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7253,7 +7263,7 @@
 		)
 		(uuid "c6ef1dfc-486b-4543-ae39-97af15e5950f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.2832 50.8 0)
+			(at 132.2832 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,7 +7275,7 @@
 	)
 	(global_label "SW_Center"
 		(shape input)
-		(at 123.19 60.96 0)
+		(at 123.19 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7275,7 +7285,7 @@
 		)
 		(uuid "cd604a81-8128-466a-9894-6eb99dc60a19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.9118 60.96 0)
+			(at 135.9118 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7287,7 +7297,7 @@
 	)
 	(global_label "IO5{slash}Blue"
 		(shape input)
-		(at 95.25 63.5 0)
+		(at 95.25 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7297,7 +7307,7 @@
 		)
 		(uuid "dfb7ce70-19b5-485a-9199-5dcc66a2ba54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.8833 63.5 0)
+			(at 106.8833 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,7 +7451,7 @@
 	)
 	(global_label "IO6{slash}Green"
 		(shape input)
-		(at 95.25 66.04 0)
+		(at 95.25 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7451,7 +7461,7 @@
 		)
 		(uuid "f75239e2-9b99-492e-a69e-0da52b6c6469")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.0929 66.04 0)
+			(at 108.0929 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +7495,7 @@
 	)
 	(global_label "SW_Down"
 		(shape input)
-		(at 123.19 53.34 0)
+		(at 123.19 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7495,7 +7505,7 @@
 		)
 		(uuid "fcd17001-4b5e-45a7-981d-95045703dff5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.7022 53.34 0)
+			(at 134.7022 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,10 +7672,11 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 76.2 118.11 90)
+		(property "Value" "A2"
+			(at 76.2 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,7 +7728,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 50.8 67.31 0)
+		(at 50.8 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7725,7 +7736,7 @@
 		(dnp no)
 		(uuid "0f2b99b1-1b6d-4d9c-9730-fdda5d30231b")
 		(property "Reference" "#PWR015"
-			(at 50.8 73.66 0)
+			(at 50.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7734,7 +7745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 71.12 0)
+			(at 50.8 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +7753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 67.31 0)
+			(at 50.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +7762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 67.31 0)
+			(at 50.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,7 +7771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 76.2 0)
+			(at 50.8 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7782,7 +7793,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:10k_0603")
-		(at 72.39 45.72 90)
+		(at 72.39 33.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7791,7 +7802,7 @@
 		(dnp no)
 		(uuid "12c4f2db-d828-4af6-bc24-cdf9be80cefe")
 		(property "Reference" "R4"
-			(at 73.66 44.45 90)
+			(at 73.66 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,7 +7811,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 73.66 46.99 90)
+			(at 73.66 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,7 +7820,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 76.708 45.72 0)
+			(at 76.708 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,7 +7829,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 81.28 45.72 0)
+			(at 81.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,7 +7838,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 45.72 0)
+			(at 83.82 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,7 +7847,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-00824"
-			(at 78.74 45.72 0)
+			(at 78.74 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +9315,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:10k_0603")
-		(at 101.6 45.72 90)
+		(at 101.6 33.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9313,7 +9324,7 @@
 		(dnp no)
 		(uuid "71515436-ceb5-454b-a265-23ec9676fddc")
 		(property "Reference" "R8"
-			(at 102.87 44.45 90)
+			(at 102.87 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9322,7 +9333,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 102.87 46.99 90)
+			(at 102.87 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,7 +9342,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 105.918 45.72 0)
+			(at 105.918 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,7 +9351,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 110.49 45.72 0)
+			(at 110.49 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,7 +9360,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 113.03 45.72 0)
+			(at 113.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9358,7 +9369,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-00824"
-			(at 107.95 45.72 0)
+			(at 107.95 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9383,7 +9394,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 72.39 40.64 0)
+		(at 72.39 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9391,7 +9402,7 @@
 		(dnp no)
 		(uuid "79b727e7-f6c4-4145-b200-26437ad24b9c")
 		(property "Reference" "#PWR048"
-			(at 72.39 44.45 0)
+			(at 72.39 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,7 +9411,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 72.39 36.83 0)
+			(at 72.39 24.13 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9409,7 +9420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 40.64 0)
+			(at 72.39 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,7 +9429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 40.64 0)
+			(at 72.39 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9427,7 +9438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 72.39 46.99 0)
+			(at 72.39 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9578,7 +9589,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 83.82 74.93 0)
+		(at 83.82 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9586,7 +9597,7 @@
 		(dnp no)
 		(uuid "81ad047f-ec5e-4a7e-9543-f95aa3fbe4d7")
 		(property "Reference" "#PWR045"
-			(at 83.82 81.28 0)
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9595,7 +9606,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 78.74 0)
+			(at 83.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +9614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 74.93 0)
+			(at 83.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +9623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 74.93 0)
+			(at 83.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9621,7 +9632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 83.82 0)
+			(at 83.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9951,10 +9962,11 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 62.23 118.11 90)
+		(property "Value" "A1"
+			(at 62.23 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +10096,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:0.1uF_0603_25V_20%")
-		(at 50.8 62.23 0)
+		(at 50.8 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10093,7 +10105,7 @@
 		(fields_autoplaced yes)
 		(uuid "98c7a403-d146-4a2f-8f61-6d5519940a34")
 		(property "Reference" "C1"
-			(at 54.61 58.4199 0)
+			(at 54.61 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10102,7 +10114,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 54.61 60.9599 0)
+			(at 54.61 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +10123,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
-			(at 50.8 73.66 0)
+			(at 50.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +10132,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 50.8 76.2 0)
+			(at 50.8 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,7 +10141,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 50.8 81.28 0)
+			(at 50.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +10150,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00810"
-			(at 50.8 78.74 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +10159,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 54.61 63.4999 0)
+			(at 54.61 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,7 +10168,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 54.61 66.0399 0)
+			(at 54.61 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +10193,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:10k_0603")
-		(at 95.25 45.72 90)
+		(at 95.25 33.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10190,7 +10202,7 @@
 		(dnp no)
 		(uuid "a2f6f322-e75b-4036-be40-1d856ddf011a")
 		(property "Reference" "R9"
-			(at 96.52 44.45 90)
+			(at 96.52 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,7 +10211,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 96.52 46.99 90)
+			(at 96.52 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,7 +10220,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 99.568 45.72 0)
+			(at 99.568 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,7 +10229,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 104.14 45.72 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +10238,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 45.72 0)
+			(at 106.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10235,7 +10247,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-00824"
-			(at 101.6 45.72 0)
+			(at 101.6 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,7 +10343,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:10k_0603")
-		(at 107.95 45.72 90)
+		(at 107.95 33.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10340,7 +10352,7 @@
 		(dnp no)
 		(uuid "a6a5ba9f-6358-4fba-8a5d-84d9715165ad")
 		(property "Reference" "R10"
-			(at 109.22 44.45 90)
+			(at 109.22 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10349,7 +10361,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 109.22 46.99 90)
+			(at 109.22 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10358,7 +10370,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 112.268 45.72 0)
+			(at 112.268 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +10379,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 116.84 45.72 0)
+			(at 116.84 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10376,7 +10388,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 45.72 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10397,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-00824"
-			(at 114.3 45.72 0)
+			(at 114.3 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10410,7 +10422,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:10k_0603")
-		(at 120.65 45.72 90)
+		(at 120.65 33.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10419,7 +10431,7 @@
 		(dnp no)
 		(uuid "a9af0e76-d23d-42d4-ad2b-4e47e3511150")
 		(property "Reference" "R12"
-			(at 121.92 44.45 90)
+			(at 121.92 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10428,7 +10440,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 121.92 46.99 90)
+			(at 121.92 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10437,7 +10449,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 124.968 45.72 0)
+			(at 124.968 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10446,7 +10458,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 129.54 45.72 0)
+			(at 129.54 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10455,7 +10467,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 45.72 0)
+			(at 132.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10464,7 +10476,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-00824"
-			(at 127 45.72 0)
+			(at 127 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10580,7 +10592,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 95.25 39.37 0)
+		(at 95.25 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10588,7 +10600,7 @@
 		(dnp no)
 		(uuid "ad713e38-f0bc-4144-855d-286b1856f196")
 		(property "Reference" "#PWR046"
-			(at 95.25 43.18 0)
+			(at 95.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,7 +10609,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 95.25 35.56 0)
+			(at 95.25 22.86 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10606,7 +10618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 39.37 0)
+			(at 95.25 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10615,7 +10627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 39.37 0)
+			(at 95.25 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10624,7 +10636,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 95.25 45.72 0)
+			(at 95.25 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,10 +10673,11 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 48.26 118.11 90)
+		(property "Value" "A0"
+			(at 48.26 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10910,7 +10923,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-IC-Special-Function:PCA9554PW")
-		(at 83.82 58.42 0)
+		(at 83.82 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10919,7 +10932,7 @@
 		(fields_autoplaced yes)
 		(uuid "c49ae215-625e-4263-b40b-39271c85ffe3")
 		(property "Reference" "U4"
-			(at 86.0141 73.66 0)
+			(at 86.0141 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10928,7 +10941,7 @@
 			)
 		)
 		(property "Value" "PCA9554PW"
-			(at 86.0141 76.2 0)
+			(at 86.0141 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10937,7 +10950,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Semiconductor-Standard:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 83.82 74.295 0)
+			(at 83.82 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10946,7 +10959,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9554.pdf"
-			(at 83.82 79.375 0)
+			(at 83.82 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10955,7 +10968,7 @@
 			)
 		)
 		(property "Description" "8-bit I2C-bus and SMBus I/O port with interrupt, TSSOP-16"
-			(at 83.82 76.835 0)
+			(at 83.82 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10964,7 +10977,7 @@
 			)
 		)
 		(property "PROD_ID" "IC-23589"
-			(at 83.82 81.915 0)
+			(at 83.82 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11442,7 +11455,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:10k_0603")
-		(at 114.3 45.72 90)
+		(at 114.3 33.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11451,7 +11464,7 @@
 		(dnp no)
 		(uuid "e9433337-e52f-4222-a5ed-3c95d554e2af")
 		(property "Reference" "R11"
-			(at 115.57 44.45 90)
+			(at 115.57 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11460,7 +11473,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 115.57 46.99 90)
+			(at 115.57 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11469,7 +11482,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 118.618 45.72 0)
+			(at 118.618 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11478,7 +11491,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 123.19 45.72 0)
+			(at 123.19 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11487,7 +11500,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 125.73 45.72 0)
+			(at 125.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11496,7 +11509,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-00824"
-			(at 120.65 45.72 0)
+			(at 120.65 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11721,7 +11734,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 83.82 44.45 0)
+		(at 83.82 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11729,7 +11742,7 @@
 		(dnp no)
 		(uuid "f15717be-3e19-4488-973b-e41f556c334b")
 		(property "Reference" "#PWR047"
-			(at 83.82 48.26 0)
+			(at 83.82 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11738,7 +11751,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 83.82 40.64 0)
+			(at 83.82 27.94 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11747,7 +11760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 44.45 0)
+			(at 83.82 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +11769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 44.45 0)
+			(at 83.82 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +11778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 83.82 50.8 0)
+			(at 83.82 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12154,7 +12167,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 50.8 57.15 0)
+		(at 50.8 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12162,7 +12175,7 @@
 		(dnp no)
 		(uuid "fdba8340-dcb2-4dbd-8402-1763d90fb9b4")
 		(property "Reference" "#PWR016"
-			(at 50.8 60.96 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,7 +12184,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 50.8 53.34 0)
+			(at 50.8 40.64 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12180,7 +12193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 57.15 0)
+			(at 50.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12189,7 +12202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 57.15 0)
+			(at 50.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12198,7 +12211,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 50.8 63.5 0)
+			(at 50.8 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

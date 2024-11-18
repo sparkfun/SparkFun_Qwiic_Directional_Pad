@@ -18,18 +18,18 @@
   Watch each LED turn on one-at-a-time
 */
 
-#include <SparkFun_PCA9536_Arduino_Library.h> //Click here:
+#include <SparkFun_I2C_Expander_Arduino_Library.h> // Click here to get the library: http://librarymanager/All#SparkFun_I2C_Expander_Arduino_Library
 
-PCA9536 io;
+SFE_PCA95XX io; // Defaults to the PCA9554 at I2C address 0x20
 
 int buttonUp = 0;
 int buttonDown = 1;
 int buttonRight = 2;
 int buttonLeft = 3;
 int buttonCenter = 4;
-int ledRed = 5;
+int ledBlue = 5;
 int ledGreen = 6;
-int ledBlue = 7;
+int ledRed = 7;
 
 void setup()
 {
@@ -39,8 +39,8 @@ void setup()
 
   Wire.begin();
 
-  // Initialize the PCA9557, default address = 0x18
-  if (io.begin(0x18, 8) == false) //Device Address, Number of GPIO
+  // Initialize the PCA9554, default address = 0x20
+  if (io.begin() == false) //Device Address, Number of GPIO
   {
     Serial.println("PCA9557 not detected. Please check wiring. Freezing...");
     while (1)
@@ -71,23 +71,43 @@ void setup()
 
 void loop()
 {
-  Serial.print("Buttons: ");
+  Serial.print("Button: ");
 
   if (io.digitalRead(buttonUp) == LOW)
   {
-    Serial.print(" Up");
+    Serial.print("Up");
     redOn();
     greenOff();
     blueOff();
   }
   else if (io.digitalRead(buttonDown) == LOW)
-    Serial.print(" Down");
+  {
+    Serial.print("Down");
+    redOff();
+    greenOn();
+    blueOff();
+  }
   else if (io.digitalRead(buttonLeft) == LOW)
-    Serial.print(" Left");
+  {
+    Serial.print("Left");
+    redOn();
+    greenOff();
+    blueOn();
+  }
   else if (io.digitalRead(buttonRight) == LOW)
-    Serial.print(" Right");
+  {
+    Serial.print("Right");
+    redOff();
+    greenOn();
+    blueOn();
+  }
   else if (io.digitalRead(buttonCenter) == LOW)
-    Serial.print(" Center");
+  {
+    Serial.print("Center");
+    redOn();
+    greenOn();
+    blueOn();
+  }
   else
   {
     Serial.print(" None");

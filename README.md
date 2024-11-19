@@ -1,7 +1,7 @@
 SparkFun Qwiic Directional Pad
 ========================================
 
-[![SparkFun Qwiic Directional Pad](URL for picture of part)](https://www.sparkfun.com/products/26851)
+[![SparkFun Qwiic Directional Pad](https://cdn.sparkfun.com/r/600-600/assets/parts/2/7/9/6/9/26851-Qwiic-Directional-Pad-Feature.jpg)](https://www.sparkfun.com/products/26851)
 
 [*SparkFun Qwiic Directional Pad (PRT-26851)*](https://www.sparkfun.com/products/26851)
 

@@ -33,11 +33,11 @@ Documentation
 
 Product Versions
 ----------------
-* [PRT-26851](https://www.sparkfun.com/products/26851) - v1.0
+* [PRT-26851](https://www.sparkfun.com/products/26851) - v1.1
 
 Version History
 ---------------
-* v1.0 - Initial Release
+* v1.1 - Initial Release
 
 
 License Information

@@ -42,7 +42,7 @@ void setup()
   // Initialize the PCA9554, default address = 0x20
   if (io.begin() == false) //Device Address, Number of GPIO
   {
-    Serial.println("PCA9557 not detected. Please check wiring. Freezing...");
+    Serial.println("PCA9554 not detected. Please check wiring. Freezing...");
     while (1)
       ;
   }

@@ -21,5 +21,5 @@ SparkFun has written a [basic example for the Qwiic Directional Pad](https://git
 You will need the has written a library to work with the Qwiic Directional Pad. You can obtain this library through the Arduino Library Manager by searching for "**SparkFun I2C Expander Arduino Library**". Find the one written by SparkFun Electronics and install the latest version. Users who prefer to manually install the library can get it from the [GitHub Repository](https://github.com/sparkfun/SparkFun_I2C_Expander_Arduino_Library) or download the .ZIP by clicking the button below:
 
 <div style="text-align: center">
-    <a href="https://github.com/sparkfun/SparkFun_I2C_Expander_Arduino_Library/archive/refs/heads/main.zip" class="md-button">SparkFun Qwiic I2C Expander Arduino Library (ZIP)</a
+    <a href="https://github.com/sparkfun/SparkFun_I2C_Expander_Arduino_Library/archive/refs/heads/main.zip" class="md-button">SparkFun Qwiic I2C Expander Arduino Library (ZIP)</a>
 </div>

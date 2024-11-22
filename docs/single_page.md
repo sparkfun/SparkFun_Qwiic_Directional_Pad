@@ -14,7 +14,7 @@ icon: fontawesome/solid/scroll
 # Hardware Hookup
 --8<-- "./docs/hardware_hookup.md"
 
-# Installing the Arduino Library
+# Setting Up Arduino
 --8<-- "./docs/arduino_library.md"
 
 # Arduino Example

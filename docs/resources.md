@@ -1,4 +1,4 @@
-Now that you've successfully got your SparkFun Qwiic Power Switch up and running, it's time to incorporate it into your own project! For more information, check out the resources below:
+Now that you've successfully got your SparkFun Qwiic Directional Pad up and running, it's time to incorporate it into your own project! For more information, check out the resources below:
 
 * [Schematic (PDF)](../assets/board_files/SparkFun_Qwiic_Directional_Pad_Schematic_v1_1.pdf)
 * [KiCad Files (ZIP)](../assets/board_files/SparkFun_Qwiic_Directional_Pad_v1_1.zip)

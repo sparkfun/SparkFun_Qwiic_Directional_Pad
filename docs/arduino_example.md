@@ -70,10 +70,10 @@ void setup()
   io.pinMode(ledBlue, OUTPUT);
 
   //By default, on the PA9557, IO 4567 are inverted
-  io.revert(buttonCenter); //Set to not inverted
+  /*io.revert(buttonCenter); //Set to not inverted
   io.revert(ledRed); //Set to not inverted
   io.revert(ledGreen); //Set to not inverted
-  io.revert(ledBlue); //Set to not inverted
+  io.revert(ledBlue); //Set to not inverted*/
 
   redOff();
   greenOff();
@@ -164,7 +164,7 @@ After uploading the code, open the [Serial Monitor](https://learn.sparkfun.com/t
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Top View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Arduino Serial Output"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Arduino Serial Output</i></td>

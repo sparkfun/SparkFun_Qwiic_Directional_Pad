@@ -73,12 +73,6 @@ void setup() {
   io.pinMode(ledGreen, OUTPUT);
   io.pinMode(ledBlue, OUTPUT);
 
-  //By default, on the PA9557, IO 4567 are inverted
-  /*io.revert(buttonCenter); //Set to not inverted
-  io.revert(ledRed); //Set to not inverted
-  io.revert(ledGreen); //Set to not inverted
-  io.revert(ledBlue); //Set to not inverted*/
-
   redOff();
   greenOff();
   blueOff();

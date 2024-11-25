@@ -17,7 +17,7 @@ icon: fontawesome/solid/scroll
 # Setting Up Arduino
 --8<-- "./docs/arduino_library.md"
 
-# Arduino Example
+# Arduino Examples
 --8<-- "./docs/arduino_example.md"
 
 # Troubleshooting

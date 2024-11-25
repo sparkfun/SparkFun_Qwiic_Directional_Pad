@@ -261,7 +261,7 @@ nav:
     - Hardware Overview: hardware_overview.md
     - Hardware Hookup: hardware_hookup.md
     - Setting Up Arduino: arduino_library.md
-    - Arduino Example: arduino_example.md
+    - Arduino Examples: arduino_example.md
   - Resources: resources.md
   - Support:
     - Troubleshooting: troubleshooting.md

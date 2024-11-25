@@ -11,10 +11,10 @@
 
     - [How to Install CH340 Drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
 
-SparkFun has written a [basic example for the Qwiic Directional Pad](https://github.com/sparkfun/SparkFun_Qwiic_Directional_Pad/blob/main/Firmware/Example1-ReadButtons/Example1-ReadButtons.ino) and is provided in the GitHub Hardware repository.
+SparkFun has written [basic examples for the Qwiic Directional Pad](https://github.com/sparkfun/SparkFun_Qwiic_Directional_Pad/tree/main/Firmware) and is provided in the GitHub Hardware repository.
 
 <div style="text-align: center">
-    <a href="https://github.com/sparkfun/SparkFun_Qwiic_Directional_Pad/blob/main/Firmware/Example1-ReadButtons/Example1-ReadButtons.ino" class="md-button">SparkFun Qwiic Directional Pad: Example 1 - Read Buttons</a>
+    <a href="https://github.com/sparkfun/SparkFun_Qwiic_Directional_Pad/tree/main/Firmware" class="md-button">SparkFun Qwiic Directional Pad: Examples</a>
 </div>
 
 

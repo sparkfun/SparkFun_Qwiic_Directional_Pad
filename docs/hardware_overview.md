@@ -53,7 +53,7 @@ A low profile 5-way directional pad is populated on the top side of the board. T
 </div>
 
 !!! note
-    You can only press one button at a time! For example, if the UP button is pressed down, it will only register the UP button being pressed down. Once the UP button is released, the board will be able to read another button press.
+    We recommend pressing only one button at a time! For example, if the UP button is pressed down, it will register the UP button being pressed down first due to the way the condition statements are written in the Arduino code. Once the UP button is released, the board will be able to read another button press. However, if the LEFT button is pressed and then the UP button is pressed, the Qwiic Directional Pad will register the UP button.
 
 
 
@@ -98,12 +98,13 @@ The board includes two horizontal Qwiic connectors to connect to other Qwiic-ena
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26851_Qwiic_Directional_Pad_Bottom_Qwiic_I2C_PTH.jpg"><img src="../assets/img/PRT-26851_Qwiic_Directional_Pad_Bottom_Qwiic_I2C_PTH.jpg" width="600px" height="600px" alt="Qwiic Connector, I2C, and PCA9554 Highlighted"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Qwiic Connector, I<sup>2</sup>C, and PCA9554 Highlighted</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Qwiic Connector, I<sup>2</sup>C, and PCA9554 Highlighted - Bottom View</i></td>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>I<sup>2</sup>C Highlighted - Top View</i></td>
     </tr>
   </table>
 </div>
 
-As explained in the previous section, the I<sup>2</sup>C address of the PCA9554 is set to **0x20** by default. By adjusting the jumpers on the back of the board, the alternative address can be any value between _0x21_ to _0x27_.
+As explained in the previous section, the I<sup>2</sup>C address of the PCA9554 is set to **0x20** by default. By adjusting the jumpers on the back of the board, the alternative address can be any value between _0x21_ to _0x27_. Make sure to check the Jumpers section below for more information.
 
 
 
@@ -129,8 +130,120 @@ The interrupt pin labeled as INT is for users that want to notify a microcontrol
 
 The board includes two LEDs on the top and bottom of the board. Both can be disabled with the jumpers on the back of the board.
 
-* **STAT** &mdash; The status LED is a non-addressable RGB LED that is used to indicate which button is being pressed on the 5-way directional pad. While this is populated on the bottom of the board, it will light up through the hole toward the top side of the board.
 * **PWR** &mdash; On the bottom side of the board, the power LED indicates when power is available on 3.3V.
+* **STAT** &mdash; The status LED is a non-addressable RGB LED that is used to indicate which button is being pressed on the 5-way directional pad. While this is populated on the bottom of the board, it will light up through the hole toward the top side of the board. Each channel can be disabled with the jumper on the back for users that want to connect them to some other input. Note that two colors were not used since there were only 5 buttons available on the directional pad.
+<div style="text-align: center;">
+    <table>
+        <tr>
+            <th style="text-align: center; border: solid 1px #cccccc;">Button Press
+            </th>
+            <th style="text-align: center; border: solid 1px #cccccc;">Color
+            </th>
+            <th style="text-align: center; border: solid 1px #cccccc;">Red<br />(GPIO7)
+            </th>
+            <th style="text-align: center; border: solid 1px #cccccc;">Green<br />(GPIO6)
+            </th>
+            <th style="text-align: center; border: solid 1px #cccccc;">Blue<br />(GPIO5)
+            </th>
+        </tr>
+        <tr>        
+            <td style="text-align: center; border: solid 1px #cccccc;">Up
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">Red
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+        </tr>
+        <tr>            
+            <td style="text-align: center; border: solid 1px #cccccc;">Down
+            </td>   
+            <td style="text-align: center; border: solid 1px #cccccc;">Green
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+        </tr>
+        <tr>            
+            <td style="text-align: center; border: solid 1px #cccccc;">Left
+            </td>   
+            <td style="text-align: center; border: solid 1px #cccccc;">Magenta
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+        </tr>
+        <tr>       
+            <td style="text-align: center; border: solid 1px #cccccc;">Right
+            </td>        
+            <td style="text-align: center; border: solid 1px #cccccc;">Cyan
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+        </tr>
+        <tr>       
+            <td style="text-align: center; border: solid 1px #cccccc;">Center
+            </td>        
+            <td style="text-align: center; border: solid 1px #cccccc;">White
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+        </tr>
+            <tr><td style="text-align: center; border: solid 1px #cccccc;"><i>No Button Press</i>
+            </td>          
+            <td style="text-align: center; border: solid 1px #cccccc;">OFF
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+        </tr>
+        <tr>
+            <tr><td style="text-align: center; border: solid 1px #cccccc;"><i>Not Assigned</i>
+            </td>        
+            <td style="text-align: center; border: solid 1px #cccccc;">Blue
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+        </tr>
+        <tr>
+            <tr><td style="text-align: center; border: solid 1px #cccccc;"><i>Not Assigned</i>
+            </td>        
+            <td style="text-align: center; border: solid 1px #cccccc;">Yellow
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+        </tr>
+    </table>
+</div>
+
 
 <div style="text-align: center;">
   <table>
@@ -153,8 +266,106 @@ The board includes two LEDs on the top and bottom of the board. Both can be disa
 
 The back of the board includes jumpers to configure the board.
 
+* **PWR** &mdash; By default, the power jumper connects the LED to the output's 3.3V pin. Cutting this trace disables the LED.
+* **7** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO7 and the red channel from the RGB LED. One disabled, GPIO7 is available for users that want to connect them to some other input.
+* **6** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO6 and the green channel from the RGB LED. One disabled, GPIO6 is available for users that want to connect them to some other input.
+* **5** &mdash; By default, this jumper is closed. Cutting this jumper will disconnect GPIO5 and the blue channel from the RGB LED. One disabled, GPIO5 is available for users that want to connect them to some other input.
 * **I<sup>2</sup>C** &mdash; By default, this three-pad jumper is closed. The three way jumper labeled I<sup>2</sup>C connects 3.3V to two 2.2k&ohm; pull-up resistors and to the I<sup>2</sup>C data and clock lines. If multiple devices are connected to the bus with the pull-up resistors enabled, the parallel equivalent resistance will create too strong of a pull-up for the bus to operate correctly. As a general rule of thumb, [disable all but one pair of pull-up resistors](https://learn.sparkfun.com/tutorials/i2c/all#i2c-at-the-hardware-level) if multiple devices are connected to the bus.
-* **LED OUT** &mdash; By default, this jumper connects the LED to the output's 3.3V pin. Cutting this trace disables the LED.
+* **ADR**  &mdash; By default, the three jumpers **0**, **1**, and **2** are open. These set the I<sup>2</sup>C address of the Qwiic Directional Pad. Adding a solder blob will close the jumper and set the jumper as a `1`. Below shows the table needed to configure the three jumpers to achieve the desired I<sup>2</sup>C address.
+<div style="text-align: center;">
+    <table>
+        <tr>
+            <th style="text-align: center; border: solid 1px #cccccc;">I<sup>2</sup>C Address
+            </th>
+            <th style="text-align: center; border: solid 1px #cccccc;">ADR2<br/> (Jumper <b>2</b>)
+            </th>
+            <th style="text-align: center; border: solid 1px #cccccc;">ADR1<br/> (Jumper <b>1</b>)
+            </th>
+            <th style="text-align: center; border: solid 1px #cccccc;">ADR0<br/>(Jumper <b>0</b>)
+            </th>
+        </tr>
+        <tr>        
+            <td style="text-align: center; border: solid 1px #cccccc;">0x20
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+        </tr>
+        <tr>        
+            <td style="text-align: center; border: solid 1px #cccccc;">0x21
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+        </tr>
+        <tr>        
+            <td style="text-align: center; border: solid 1px #cccccc;">0x22
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+        </tr>
+        <tr>        
+            <td style="text-align: center; border: solid 1px #cccccc;">0x23
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+        </tr>
+        <tr>        
+            <td style="text-align: center; border: solid 1px #cccccc;">0x24
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+        </tr>
+        <tr>        
+            <td style="text-align: center; border: solid 1px #cccccc;">0x25
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+        </tr>
+        <tr>        
+            <td style="text-align: center; border: solid 1px #cccccc;">0x26
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">0
+            </td>
+        </tr>
+        <tr>        
+            <td style="text-align: center; border: solid 1px #cccccc;">0x27
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+            <td style="text-align: center; border: solid 1px #cccccc;">1
+            </td>
+        </tr>
+    </table>
+</div>
 
 <div style="text-align: center;">
   <table>

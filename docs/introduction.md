@@ -22,7 +22,7 @@ The [SparkFun Qwiic Directional Pad](https://www.sparkfun.com/products/26851) ad
     </a>
 </div>
 
-In this tutorial, we'll go over the hardware and how to hookup the SparkFun Qwiic Directional Pad to an Arduino. We will also go over an Arduino example to get started.
+In this tutorial, we'll go over the hardware and how to hookup the SparkFun Qwiic Directional Pad to an Arduino. We will also go over some Arduino examples to get started.
 
 
 

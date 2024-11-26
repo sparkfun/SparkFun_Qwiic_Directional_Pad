@@ -13,7 +13,7 @@ Now that you've successfully got your SparkFun Qwiic Directional Pad up and runn
 
 
 
-Or check out the Qwiic Button or Qwiic Joystick!
+Or check out the Qwiic Button or Qwiic Joystick for more ideas!
 
 <div class="grid cards col-4" markdown>
 <!-- ----------WHITE SPACE BETWEEN GRID CARDS---------- -->

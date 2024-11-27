@@ -68,3 +68,6 @@ For users that want to notify the microcontroller that there is a button press, 
     </tr>
   </table>
 </div>
+
+!!! note
+    Example 3 from the SparkFun I2C Expander Arduino Library uses the IoT RedBoard - ESP32's pin `14` for the interrupt. The example in this tutorial is slightly different and uses pin `4` for the interrupt.

@@ -170,7 +170,10 @@ After uploading the code, open the [Serial Monitor](https://learn.sparkfun.com/t
 
 ### Example 2: Interrupt Pin
 
-From your downloads, open the example labeled as **Example2_InterruptReadButtons_WriteLEDs.ino**. This example reads the button presses and writes to the non-addressable LED whenever there is an interrupt using the PCA9554 I/O I<sup>2</sup>C Expander.
+!!! note
+    Example 3 from the SparkFun I2C Expander Arduino Library uses the IoT RedBoard - ESP32's pin `14` for the interrupt. The example in this tutorial is slightly different and uses pin `4` for the interrupt.
+
+From your downloads, open the example labeled as **Example2_InterruptReadButtons_WriteLEDs.ino**. This example reads the button presses and writes to the non-addressable LED whenever there is an interrupt using the PCA9554 I/O I<sup>2</sup>C Expander. Make sure to connect the Qwiic Directional Pad's interrupt pin to the IoT RedBoard's pin `4`.
 
 For users using an Arduino microcontroller, select your board in the Tools menu (in our case the **SparkFun ESP32 IoT RedBoard**) and the correct Port it enumerated on.
 

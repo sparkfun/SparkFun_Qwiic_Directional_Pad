@@ -16,7 +16,7 @@ The [SparkFun Qwiic Directional Pad](https://www.sparkfun.com/products/26851) ad
     <a href="https://www.sparkfun.com/products/26851">
       <b>SparkFun Qwiic Directional Pad</b>
       <br />
-      PRT-26784
+      PRT-26851
       <br />
       <center>[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/products/26851){ .md-button .md-button--primary }</center>
     </a>

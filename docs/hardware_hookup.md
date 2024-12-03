@@ -12,7 +12,7 @@ Insert a Qwiic cable between your Arduino microcontroller and the Qwiic Directio
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26851-Qwiic_Directional_Pad_ESP32_PCA9554_IO_Expander.jpg"><img src="../assets/img/PRT-26851-Qwiic_Directional_Pad_ESP32_PCA9554_IO_Expander.jpg" width="600px" height="600px" alt="IoT RedBoard - ESP32 and Qwiic Directional Pad Connectedvia Qwiic"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>IoT RedBoard - ESP32 and Qwiic Directional Pad Connectedvia Qwiic</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>IoT RedBoard - ESP32 and Qwiic Directional Pad Connected via Qwiic</i></td>
     </tr>
   </table>
 </div>

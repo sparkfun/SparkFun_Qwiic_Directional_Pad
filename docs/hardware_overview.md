@@ -98,8 +98,8 @@ The board includes two horizontal Qwiic connectors to connect to other Qwiic-ena
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/PRT-26851_Qwiic_Directional_Pad_Bottom_Qwiic_I2C_PTH.jpg"><img src="../assets/img/PRT-26851_Qwiic_Directional_Pad_Bottom_Qwiic_I2C_PTH.jpg" width="600px" height="600px" alt="Qwiic Connector, I2C, and PCA9554 Highlighted"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Qwiic Connector, I<sup>2</sup>C, and PCA9554 Highlighted - Bottom View</i></td>
-      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>I<sup>2</sup>C Highlighted - Top View</i></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Qwiic Connector, I<sup>2</sup>C, and PCA9554 Highlighted - Top View</i></td>
+      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>I<sup>2</sup>C Highlighted - Bottom View</i></td>
     </tr>
   </table>
 </div>
